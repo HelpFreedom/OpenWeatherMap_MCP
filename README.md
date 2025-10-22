@@ -15,7 +15,7 @@
 
 ```bash
 # Создайте виртуальное окружение
-python -m venv venv
+python3 -m venv venv
 
 # Активируйте его
 # На macOS/Linux:
@@ -24,7 +24,7 @@ source venv/bin/activate
 venv\Scripts\activate
 
 # Установите зависимости
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ### 2. Настройка API ключей
@@ -57,7 +57,7 @@ OPENAI_API_KEY=ваш_ключ_здесь
 
 ```bash
 # Просто запустите клиент
-python client.py
+python3 client.py
 ```
 
 ## 💬 Примеры использования
@@ -142,8 +142,4 @@ weather-mcp-server/
 
 - [MCP Documentation](https://modelcontextprotocol.io/)
 - [OpenWeatherMap API](https://openweathermap.org/api)
-- [OpenAI API Reference](https://platform.openai.com/docs)
-
-## 📝 Лицензия
-
-Свободное использование для обучения и экспериментов!
+- [Канал "Черный треугольник"](https://t.me/black_triangle_tg) 
