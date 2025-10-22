@@ -1,0 +1,36 @@
+# Переменные окружения (ВАЖНО!)
+.env
+.env.local
+.env.*.local
+
+# Виртуальное окружение Python
+venv/
+env/
+ENV/
+.venv
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Кэш pytest
+.pytest_cache/
+.coverage
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Логи
+*.log
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
